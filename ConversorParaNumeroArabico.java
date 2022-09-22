@@ -30,7 +30,7 @@ public class ConversorParaNumeroArabico {
 				numeroArabico += 4;
 				numeroRomano = numeroRomano.replace("IV","");
 			}
-			numerosEspeciais = numerosEspeciais.substring(2);
+			numerosEspeciais = numerosEspeciais.substring(1);
 		}
 		
 		while(numeroRomano.length() > 0) {
